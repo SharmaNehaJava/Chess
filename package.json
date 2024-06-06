@@ -1,0 +1,28 @@
+{
+  "name": "chessmern",
+  "version": "1.0.0",
+  "description": "multiplayer real time chess game",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "chess",
+    "realtime",
+    "socket",
+    "io"
+  ],
+  "author": "Neha Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "chess.js": "^1.0.0-beta.8",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "socket.io": "^4.7.5"
+  }
+}
